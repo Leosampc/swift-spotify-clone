@@ -12,9 +12,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // testing view code config
-        title = "Home"
-        view.backgroundColor = .red
+        view.backgroundColor = .systemBackground
     }
 
 
