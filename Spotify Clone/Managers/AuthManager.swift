@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SpotifyWebAPI
 
 final class AuthManager {
     static let shared = AuthManager()
@@ -19,7 +20,7 @@ final class AuthManager {
     
     public var signInURL: URL? {
         let scope = "user-read-private"
-        let redirectURI = "http://cooperativa-cocrafi.com.br"
+        let redirectURI = "http://www.cooperativa-cocrafi.com.br"
         let baseURL = "https://accounts.spotify.com/authorize"
         let queryStringURL = "\(baseURL)?response_type=code&client_id=\(Constants.clientID)&scope=\(scope)&redirect_uri=\(redirectURI)&show_dialog=TRUE"
         return URL(string: queryStringURL)

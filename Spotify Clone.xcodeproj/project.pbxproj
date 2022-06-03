@@ -206,6 +206,8 @@
 			dependencies = (
 			);
 			name = "Spotify Clone";
+			packageProductDependencies = (
+			);
 			productName = "Spotify Clone";
 			productReference = 5BFF72C2284A7DDA00361465 /* Spotify Clone.app */;
 			productType = "com.apple.product-type.application";
@@ -234,6 +236,8 @@
 				Base,
 			);
 			mainGroup = 5BFF72B9284A7DDA00361465;
+			packageReferences = (
+			);
 			productRefGroup = 5BFF72C3284A7DDA00361465 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
